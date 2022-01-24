@@ -6,7 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>assign-three</title>
+    ....intrnal style..
     <style>
+        /* google font............. */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+        /* common style start.... */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* common style end........ */
         h4 {
             position: relative;
             top: -25px;
@@ -23,13 +33,17 @@
             margin-top: 80px;
         }
     </style>
+    <!-- bootstrap stylecheet.......... -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font awesome............. -->
     <script src="https://kit.fontawesome.com/00cdb929fa.js" crossorigin="anonymous"></script>
 </head>
+<!-- ......... body start..... -->
 
 <body>
+    <!-- ....... header start..... -->
     <header class="mb-5">
-
+        <!-- ......nav start ....... -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
             <div class="container d-flex justify-content-between">
                 <div class="fs-2">
@@ -105,8 +119,22 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+        <!-- ....... carosal end...... -->
+        <!-- toast start -->
+        <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body  text-primary">
+                    except all notification
+                </div>
+                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+        <!-- toast end .......-->
     </header>
+    <!-- ...... header end....... -->
+    <!-- ...... main start. -->
     <main class="container">
+        <!-- .... our package..... -->
         <section class="my-5 row justify-content-center gx-5">
             <h1 class="text-center my-5 fw-bold">Our packege</h1>
             <div class="col-3">
@@ -192,6 +220,7 @@
             </div>
 
         </section>
+        <!-- ......... acordion .... -->
         <section class="">
             <h1 class="my-5 text-center">Frequently Asked Questions
             </h1>
@@ -252,6 +281,7 @@
             </div>
         </section>
     </main>
+    <!-- .......... footer start ........ -->
     <footer class="w-fluid d-flex justify-content-around align-items-center text-white">
         <p>© 2020 bike. All rights reserved</p>
         <div>
@@ -261,6 +291,7 @@
             <p><i class="fab fa-app-store-ios fs-1"></i></p>
         </div>
     </footer>
+    <!-- ....... js stylecheet  ..... -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
